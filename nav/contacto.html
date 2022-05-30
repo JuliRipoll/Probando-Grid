@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>probandogrid</title>
+
+    <link rel="stylesheet" href="../css/style.css">
+
+  </head>
+  <body class="grid_container">
+    <header class="header">
+        <nav class="nav">
+            <a href="../index.html" class="logo nav-link">TODO MATES</a>        
+            <ul class="nav-menu">
+              <li class="nav-menu-item">
+                <a href="productos.html" class="nav-menu-link nav-link">Productos</a>
+              </li>
+              <li class="nav-menu-item">
+                <a href="datamatera.html" class="nav-menu-link nav-link">Data matera</a>
+              </li>
+              <li class="nav-menu-item">
+                <a href="nosotros.html" class="nav-menu-link nav-link">Nosotros</a>
+              </li>
+              <li class="nav-menu-item">
+                <a href="contacto.html" class="nav-menu-link nav-link">Contacto</a>
+              </li>
+            </ul>
+          </nav>
+    </header>
+    <main>
+        <section>
+            <div class="form">
+                <form action="#">
+                   <h2>Dejanos tu consulta</h2>
+                   <label for="nombre">Nombre:</label>
+                   <input type="text"name="nombre"required>
+                   <br>
+                   <label for="email">Email:</label>
+                   <input type="email" name="email" id=""required>
+                   <br>
+                   <input type="radio" name="sexo" id="hombre" value="Hombre">
+                   <label for="varon">Varón </label>
+                   <br>
+                   <input type="radio" name="sexo" id="mujer" value="Mujer">
+                   <label for="mujer">Mujer </label> 
+                   <br> 
+                   <label for="Residencia?">Residencia</label>
+                   <select name="Residencia?" id="">
+                       <option value="id-0">Elija una opción</option>
+                       <option value="opcion1">Bahia Blanca y la zona</option>
+                       <option value="opcion2">Resto de Argentina</option>
+                       <option value="opcion3">Otro</option>
+                   </select>
+                   <br>
+                   <label for="consulta">Consulta:</label>
+                   <br>
+                   <textarea name="textoconsulta" id="" cols="30" rows="10"></textarea>
+                   <br>
+                   <button type="reset">Borrar formulario</button>    
+                   <button type="submit">Enviar formulario</button>                
+               </form>
+           </div>
+        </section>
+    </main>
+
+    <footer class="footer">
+        <div class="footer_list">
+            <li><a href="#" class="footer-link">instagram</a></li>
+            <li><a href="#" class="footer-link">whatsapp</a></li>
+            <li><a href="#" class="footer-link">email</a></li>     
+        </div>
+    </footer>
+
+
+
+
+</body>
+    </html>
